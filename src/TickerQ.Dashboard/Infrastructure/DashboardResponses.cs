@@ -75,6 +75,7 @@ internal class FrontendConfigResponse
     public string BackendDomain { get; set; }
     public AuthInfoResponse Auth { get; set; }
     public HeaderButtonResponse[] HeaderButtons { get; set; } = [];
+    public bool ReducedMotion { get; set; }
 }
 
 internal class HeaderButtonResponse

@@ -20,6 +20,7 @@ declare global {
         openInNewTab?: boolean;
         tooltip?: string;
       }>;
+      reducedMotion: boolean;
     };
   }
 }

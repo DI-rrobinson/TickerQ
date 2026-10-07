@@ -225,7 +225,8 @@ namespace TickerQ.Dashboard.DependencyInjection
                         OpenInNewTab = b.OpenInNewTab,
                         Tooltip = b.Tooltip
                     })
-                    .ToArray()
+                    .ToArray(),
+                ReducedMotion = config.ReducedMotion
             };
 
             var frontendJsonOptions = new JsonSerializerOptions
